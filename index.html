@@ -1,835 +1,275 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
   <head>
-    <!-- meta data -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!--font-family-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafoli de Brian Arrua - Desenvolupador Web especialitzat en aplicacions modernes i dinàmiques."
+    />
+    <meta
+      name="keywords"
+      content="desenvolupament web, programació, HTML, CSS, JavaScript, Laravel, Vue, PHP"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
       rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
     />
-
-    <!-- title of site -->
-    <title>Portafolio</title>
-
-    <!-- For favicon png -->
-    <link
-      rel="shortcut icon"
-      type="image/icon"
-      href="assets/logo/favicon.png"
-    />
-
-    <!--font-awesome.min.css-->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-
-    <!--flat icon css-->
-    <link rel="stylesheet" href="assets/css/flaticon.css" />
-
-    <!--animate.css-->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-
-    <!--owl.carousel.css-->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
-
-    <!--bootstrap.min.css-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-
-    <!-- bootsnav -->
-    <link rel="stylesheet" href="assets/css/bootsnav.css" />
-
-    <!--style.css-->
-    <link rel="stylesheet" href="assets/css/style.css" />
-
-    <!--responsive.css-->
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
-
   <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
-
-    <!-- top-area Start -->
-    <header class="top-area">
-      <div class="header-area">
-        <!-- Start Navigation -->
-        <nav
-          class="navbar navbar-default bootsnav navbar-fixed dark no-background"
-        >
-          <div class="container">
-            <!-- Start Header Navigation -->
-            <div class="navbar-header">
-              <button
-                type="button"
-                class="navbar-toggle"
-                data-toggle="collapse"
-                data-target="#navbar-menu"
-              >
-                <i class="fa fa-bars"></i>
-              </button>
-              <a class="navbar-brand" href="index.html">Portafolio</a>
-            </div>
-            <!--/.navbar-header-->
-            <!-- End Header Navigation -->
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div
-              class="collapse navbar-collapse menu-ui-design"
-              id="navbar-menu"
-            >
-              <ul
-                class="nav navbar-nav navbar-right"
-                data-in="fadeInDown"
-                data-out="fadeOutUp"
-              >
-                <li class="smooth-menu active"></li>
-                <li class="smooth-menu"><a href="#education">Educacion</a></li>
-                <li class="smooth-menu"><a href="#skills">skills</a></li>
-                <li class="smooth-menu">
-                  <a href="#experience">Experiencia</a>
-                </li>
-                <li class="smooth-menu"><a href="#profiles">Proyectos</a></li>
-                <li class="smooth-menu"><a href="#contact">Contactar</a></li>
-                <li class="smooth-menu" id="cambioIdioma"><a>Es</a></li>
-              </ul>
-              <!--/.nav -->
-            </div>
-            <!-- /.navbar-collapse -->
-          </div>
-          <!--/.container-->
-        </nav>
-        <!--/nav-->
-        <!-- End Navigation -->
+    <header>
+      <div class="logo">
+        <img src="/image/foto-logo.jpg" class="foto-logo" alt="logo" />
+        <span class="nav-titulos">Brian Arrua</span>
       </div>
-      <!--/.header-area-->
-
-      <div class="clearfix"></div>
+      <div class="navegador">
+        <a class="nav-titulos" href="#home">Home</a>
+        <a class="nav-titulos" href="#sobre-mi">Sobre mi</a>
+        <a class="nav-titulos" href="#projectes">Projectes</a>
+      </div>
     </header>
-    <!-- /.top-area-->
-    <!-- top-area End -->
-
-    <!--welcome-hero start -->
-    <section id="welcome-hero" class="welcome-hero">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="header-text">
-              <h2>
-                Hola <span>,</span> Soy <br />
-                Brian <br />
-                Arrua <span>.</span>
-              </h2>
-              <p>Soy un estudiante para ser diseñador web</p>
-            </div>
-            <!--/.header-text-->
-          </div>
-          <!--/.col-->
+    <main>
+      <div class="titulo-div">
+        <div>
+          <h1 id="home" class="titol-segment">Benvingut al meu portafoli</h1>
+          <p class="p-benvingut">
+            Hola! Soc <strong>Brian Tobias Arrua Domínguez</strong>, un apassionat <strong>desenvolupador web</strong> especialitzat en la creació de llocs web <strong>dinàmics, moderns i atractius</strong>.
+            M'encanta transformar idees en experiències digitals funcionals i intuïtives. Amb experiència en <strong>HTML, CSS, JavaScript, React, PHP i més</strong>, treballo per oferir solucions personalitzades i eficients.
+          </p>
         </div>
-        <!-- /.row-->
+        <div class="cv">
+        <a
+          href="/docs/curriculum.pdf"
+          class="btn"
+          download="/docs/curriculum.pdf"
+          ><button class="button">Descargar CV</button></a
+        >
       </div>
-      <!-- /.container-->
-    </section>
-    <!--/.welcome-hero-->
-    <!--welcome-hero end -->
+      </div>
 
-    <!--about start -->
-    <section id="about" class="about">
-      <div class="section-heading text-center">
-        <h2>Sobre mi</h2>
-      </div>
-      <div class="container">
-        <div class="about-content">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="single-about-txt">
-                <h3>
-                  Soy un Estudiante de camino para ser diseñador web y estoy
-                  acabando el segundo año de Desarrollo de aplicaciones web
-                </h3>
-                <p>
-                  Soy una persona cooperativa, soy una persona sociable, intento
-                  ser lo mas profesional con los projectos,trabajos y una
-                  persona perfeccionalista. Tambien me gusta mucho los
-                  diferentes lenguajes de programacion que hay, los unicos que
-                  he aprendido han sido Java,JavasCript,php,html y SCC pero
-                  siempre intento aprender mas ya que me gustan mucho.
-                </p>
-                <div class="row">
-                  <div class="col-sm-4">
-                    <div class="single-about-add-info">
-                      <h3>Telefono</h3>
-                      <p>666 15 17 40</p>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="single-about-add-info">
-                      <h3>Email</h3>
-                      <p>domingueztobias96@gmail.com</p>
-                    </div>
-                  </div>
-                </div>
+      <div class="sobre-div">
+        <h1 id="sobre-mi"class="titol-segment">Sobre mi</h1>
+        <div class="linia-temps">
+          <div class="element-temps">
+            <div class="icona-temps"></div>
+            <div class="contingut">
+              <div class="titol-contingut">
+                <div class="titol">DAW</div>
+                <div class="titol">2022-Present</div>
               </div>
+              <p>
+                Amb la base tècnica adquirida en SMIX, vaig decidir fer un pas
+                més i endinsar-me en el Desenvolupament d'Aplicacions Web (DAW).
+                Aquí és on realment vaig començar a explorar el que més
+                m’apassiona: crear pàgines i aplicacions web dinàmiques,
+                modernes i funcionals. He treballat amb tecnologies com HTML,
+                CSS, JavaScript, PHP, Laravel, Vue.js i bases de dades per
+                desenvolupar solucions web atractives i eficients.
+              </p>
             </div>
-            <div class="col-sm-offset-1 col-sm-5">
-              <div class="single-about-img">
-                <img
-                  src="assets/images/about/profile_image.jpg"
-                  alt="profile_image"
-                />
-                <div class="about-list-icon">
-                  <ul>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <!-- / li -->
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <!-- / li -->
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/brian-tobias-arrua-dominguez-3b5395235"
-                      >
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <!-- / li -->
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <!-- / li -->
-                  </ul>
-                  <!-- / ul -->
-                </div>
-                <!-- /.about-list-icon -->
+          </div>
+
+          <div class="element-temps">
+            <div class="icona-temps"></div>
+            <div class="contingut">
+              <div class="titol-contingut">
+                <div class="titol">SMIX</div>
+                <div class="titol">2020-2022</div>
               </div>
+              <p>
+                Durant la meva etapa a l’ESO, vaig començar a descobrir el món
+                de la informàtica i la tecnologia. Sempre m’ha agradat entendre
+                com funcionen les coses, i a poc a poc vaig anar interessant-me
+                pels ordinadors i la programació. Va ser en aquest moment quan
+                vaig començar a experimentar amb petits projectes, provant
+                diferents eines i llenguatges. Tot i ser una introducció bàsica,
+                vaig saber que aquest era el camí que volia seguir.
+              </p>
+            </div>
+          </div>
+
+          <div class="element-temps">
+            <div class="icona-temps"></div>
+            <div class="contingut">
+              <div class="titol-contingut">
+                <div class="titol">SMIX</div>
+                <div class="titol">2016-2020</div>
+              </div>
+              <p>
+                Després de l’ESO, vaig decidir aprofundir en el món de la
+                informàtica cursant el cicle de Sistemes Microinformàtics i
+                Xarxes (SMIX). Aquesta etapa em va donar una base sòlida en
+                administració de sistemes, manteniment de maquinari i
+                configuració de xarxes. Vaig aprendre a muntar i gestionar
+                equips, solucionar problemes tècnics i entendre millor com
+                funciona la infraestructura que suporta el món digital
+              </p>
             </div>
           </div>
         </div>
+        <div class="div-skill">
+          <h2 id="home" class="titol-skill">Habilitats</h2>
+            <div class="skills-container">
+              <div class="skill">HTML</div>
+              <div class="skill">CSS</div>
+              <div class="skill">JavaScript</div>
+              <div class="skill">WordPress</div>
+              <div class="skill">PHP</div>
+              <div class="skill">SASS</div>
+              <div class="skill">GIT</div>
+              <div class="skill">Github</div>
+              <div class="skill">MYSQL</div>
+              <div class="skill">Terminal</div>
+            </div>
+          </div>
       </div>
-    </section>
-    <!--/.about-->
-    <!--about end -->
+      <div class="proyectos">
+        <h1 id="projectes" class="titol-segment">Projectes</h1>
+        <div class="proyecto">
+          <div class="container">
+            <div class="image-container">
+              <img
+                src="image/hotels.png"
+                alt="Imatge"
+                class="image"
+                width="500"
+              />
+            </div>
+            <div class="proyecte-div">
+              <h2>Projecte Hotels</h2>
+              <p>
+                És un projecte web dissenyada per optimitzar la gestió hotelera,
+                permetent als establiments administrar reserves, clients,
+                habitacions i serveis de manera eficient i centralitzada
+              </p>
+              <div class="buttons">
+                <div class="button-project">LARAVEL</div>
+                <div class="button-project">JAVASCRIPT</div>
+                <div class="button-project">HTML & CSS</div>
+                <div class="button-project">SASS</div>
+                <div class="button-project">VUE</div>
+                <div class="button-project">PHP</div>
+                <div class="button-project">MYSQL</div>
+              </div>
+              <a href=""><button class="button">Visitar →</button></a>
+            </div>
+          </div>
 
-    <!--education start -->
-    <section id="education" class="education">
-      <div class="section-heading text-center">
-        <h2>education</h2>
-      </div>
-      <div class="container">
-        <div class="education-horizontal-timeline">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="single-horizontal-timeline">
-                <div class="experience-time">
-                  <h2>2016 - 2020</h2>
-                  <h3>Estudios <span>de </span> Secundaria obligatoria (ESO)</h3>
-                </div>
-                <!--/.experience-time-->
-                <div class="timeline-horizontal-border">
-                  <i class="fa fa-circle" aria-hidden="true"></i>
-                  <span class="single-timeline-horizontal"></span>
-                </div>
-                <div class="timeline">
-                  <div class="timeline-content">
-                    <h4 class="title">Montserrat roig</h4>
-                    <h5>Terrassa, Barcelona</h5>
-                    <p class="description">
-                      Estos cuatro años en el que estuve en el Montserrat roig
-                      estudie la secundaria obligatoria (ESO)
-                    </p>
-                  </div>
-                  <!--/.timeline-content-->
-                </div>
-                <!--/.timeline-->
-              </div>
+          <div class="container">
+            <div class="image-container">
+              <img
+                src="/image/peluqueria.png"
+                alt="Imatge"
+                class="image"
+                width="500"
+              />
             </div>
-            <div class="col-sm-4">
-              <div class="single-horizontal-timeline">
-                <div class="experience-time">
-                  <h2>2020 - 2022</h2>
-                  <h3>servicios microinformaticos<span> y </span>redes</h3>
-                </div>
-                <!--/.experience-time-->
-                <div class="timeline-horizontal-border">
-                  <i class="fa fa-circle" aria-hidden="true"></i>
-                  <span class="single-timeline-horizontal"></span>
-                </div>
-                <div class="timeline">
-                  <div class="timeline-content">
-                    <h4 class="title">Instituto Nicolas Copernic</h4>
-                    <h5>Terrassa, Barcelona</h5>
-                    <p class="description">
-                      Los dos años que he estuve en el Copernic estuve
-                      aprendiendo el grado medio de informatica para despues
-                      hacer el ciclo de grado superior.
-                    </p>
-                  </div>
-                  <!--/.timeline-content-->
-                </div>
-                <!--/.timeline-->
+            <div class="proyecte-div">
+              <h2>Projecte Peluqueria</h2>
+              <p>
+                Aquest projecte de GitHub és un projecte creat per alumnes de
+                DAW2 per una pàgina web de l’institut Ribot i Serra, la pàgina
+                consta de dos serveis que són perruqueria i estètica,
+              </p>
+              <div class="buttons">
+                <div class="button-project">LARAVEL</div>
+                <div class="button-project">JAVASCRIPT</div>
+                <div class="button-project">HTML & CSS</div>
+                <div class="button-project">SASS</div>
+                <div class="button-project">VUE</div>
+                <div class="button-project">PHP</div>
+                <div class="button-project">MYSQL</div>
               </div>
+              <a href="https://github.com/BrianArrua96/ProjecteRibotSierra"
+                ><button class="button">Visitar →</button></a
+              >
             </div>
-            <div class="col-sm-4">
-              <div class="single-horizontal-timeline">
-                <div class="experience-time">
-                  <h2>2022 - 2024</h2>
-                  <h3>Desarrollo<span> de </span> aplicacion web (DAW)</h3>
-                </div>
-                <!--/.experience-time-->
-                <div class="timeline-horizontal-border">
-                  <i class="fa fa-circle" aria-hidden="true"></i>
-                  <span
-                    class="single-timeline-horizontal spacial-horizontal-line"
-                  ></span>
-                </div>
-                <div class="timeline">
-                  <div class="timeline-content">
-                    <h4 class="title">Instituto Nicolas Copernic</h4>
-                    <h5>Terrassa, Barcelona</h5>
-                    <p class="description">
-                      Estos dos años he aprendido los diferentes lenguajes de
-                      programacion para hacer paginas webs como ejemplo
-                      php,JavasCript,HTML y CSS.
-                    </p>
-                  </div>
-                  <!--/.timeline-content-->
-                </div>
-                <!--/.timeline-->
+          </div>
+          <div class="container">
+            <div class="image-container">
+              <img
+                src="/image/tickets.png"
+                alt="Imatge"
+                class="image"
+                width="500"
+              />
+            </div>
+            <div class="proyecte-div">
+              <h2>Projecte Tickets</h2>
+              <p>
+                Aquest projecte té com a objectiu desenvolupar una plataforma de
+                gestió de tiquets dissenyada específicament per a esdeveniments,
+                com concerts, conferències, festes, festivals o qualsevol tipus
+                d'esdeveniment amb aforament limitat. La plataforma permetrà als
+                organitzadors gestionar, vendre i distribuir tiquets de manera
+                eficient
+              </p>
+              <div class="buttons">
+                <div class="button-project">LARAVEL</div>
+                <div class="button-project">JAVASCRIPT</div>
+                <div class="button-project">HTML & CSS</div>
+                <div class="button-project">SASS</div>
+                <div class="button-project">PHP</div>
               </div>
+              <a href="https://github.com/BrianArrua96/Project-Tickets"
+                ><button class="button">Visitar →</button></a
+              >
+            </div>
+          </div>
+          <div class="container">
+            <div class="image-container">
+              <img
+                src="/image/slides.png"
+                alt="Imatge"
+                class="image"
+                width="500"
+              />
+            </div>
+            <div class="proyecte-div">
+              <h2>Projecte Slides</h2>
+              <p>
+                L'objectiu d'aquest projecte és desenvolupar una pàgina web que
+                faciliti la creació, gestió i visualització de presentacions de
+                manera professional i accessible.
+              </p>
+              <div class="buttons">
+                <div class="button-project">JAVASCRIPT</div>
+                <div class="button-project">HTML & CSS</div>
+                <div class="button-project">PHP</div>
+              </div>
+              <a href="https://github.com/BrianArrua96/Project-Slides"
+                ><button class="button">Visitar →</button></a
+              >
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!--/.education-->
-    <!--education end -->
-
-    <!--skills start -->
-    <section id="skills" class="skills">
-      <div class="skill-content">
-        <div class="section-heading text-center">
-          <h2>skills</h2>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="single-skill-content">
-                <div class="barWrapper">
-                  <span class="progressText">HTML 5</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="70"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>70%</h3>
-                  </div>
-                </div>
-                <!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText">PHP</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="70"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>70%</h3>
-                  </div>
-                </div>
-                <!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText">JavasCript</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="75"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>75%</h3>
-                  </div>
-                </div>
-                <!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText">CSS</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="70"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>70%</h3>
-                  </div>
-                </div>
-                <div class="barWrapper">
-                  <span class="progressText">XMl</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="50"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>50%</h3>
-                  </div>
-                </div>
-                <div class="barWrapper">
-                  <span class="progressText">XQuery</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="60"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>60%</h3>
-                  </div>
-                </div>
-                <!-- /.barWrapper -->
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="single-skill-content">
-                <div class="barWrapper">
-                  <span class="progressText">JAVA</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="50"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>50%</h3>
-                  </div>
-                </div>
-                <!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText">ESPAÑOL</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>90%</h3>
-                  </div>
-                </div>
-                <!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText">INGLES</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="56"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>56%</h3>
-                  </div>
-                </div>
-                <!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText"> Catalan</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>80%</h3>
-                  </div>
-                </div>
-                <!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText">MySql</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>80%</h3>
-                  </div>
-                </div>
-                <div class="barWrapper">
-                  <span class="progressText">MongoDb</span>
-                  <div class="single-progress-txt">
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="65"
-                        aria-valuemin="10"
-                        aria-valuemax="100"
-                        style=""
-                      ></div>
-                    </div>
-                    <h3>65%</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.container -->
+    </main>
+    <footer class="footer">
+      <div class="social">
+        <a href="https://es.linkedin.com/in/brian-tobias-arrua-dominguez-3b5395235"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/BrianArrua96"
+          ><i class="bx bxl-github"></i
+        ></a>
       </div>
-      <!-- /.skill-content-->
-    </section>
-    <!--/.skills-->
-    <!--skills end -->
 
-    <!--experience start -->
-    <section id="experience" class="experience">
-      <div class="section-heading text-center">
-        <h2>Experiencia</h2>
-      </div>
-      <div class="container">
-        <div class="experience-content">
-          <div class="main-timeline">
-            <ul>
-              <li>
-                <div class="single-timeline-box fix">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <div class="experience-time text-right">
-                        <h2>2021 - 2022</h2>
-                        <h3>HELPDESK</h3>
-                      </div>
-                      <!--/.experience-time-->
-                    </div>
-                    <!--/.col-->
-                    <div class="col-md-offset-1 col-md-5">
-                      <div class="timeline">
-                        <div class="timeline-content">
-                          <h4 class="title">
-                            <span
-                              ><i class="fa fa-circle" aria-hidden="true"></i
-                            ></span>
-                            Sayos y Carrera
-                          </h4>
-                          <h5>SANT CUGAT, ESPAÑA</h5>
-                          <p class="description">
-                            Este año hice dual en el Nicolas Copernic durante un año y me encargaba de contestar a los clientes
-                            y ayudarles con sus problemas o dudas.
-                          </p>
-                        </div>
-                        <!--/.timeline-content-->
-                      </div>
-                      <!--/.timeline-->
-                    </div>
-                    <!--/.col-->
-                  </div>
-                </div>
-                <!--/.single-timeline-box-->
-              </li>
-
-              <li>
-                <div class="single-timeline-box fix">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <div class="experience-time text-right">
-                        <h2>2024 - Presente</h2>
-                        <h3>Diseñador de paginas en Wordpress</h3>
-                      </div>
-                      <!--/.experience-time-->
-                    </div>
-                    <!--/.col-->
-                    <div class="col-md-offset-1 col-md-5">
-                      <div class="timeline">
-                        <div class="timeline-content">
-                          <h4 class="title">
-                            <span
-                              ><i class="fa fa-circle" aria-hidden="true"></i
-                            ></span>
-                            Holzadac
-                          </h4>
-                          <h5>Terrassa, Barcelonas</h5>
-                          <p class="description">
-                            En la practica de FCT lo que hago es hacer paginas web con Wordpress y tocando plugins o
-                            las formas de como diseñar las paginas y lo tan diferente que es de hacerlo con lenguaje de programacion.
-                          </p>
-                        </div>
-                        <!--/.timeline-content-->
-                      </div>
-                      <!--/.timeline-->
-                    </div>
-                    <!--/.col-->
-                  </div>
-                </div>
-                <!--/.single-timeline-box-->
-              </li>
-            </ul>
-          </div>
-          <!--.main-timeline-->
-        </div>
-        <!--.experience-content-->
-      </div>
-    </section>
-    <!--/.experience-->
-    <!--experience end -->
-
-    <!--profiles start -->
-    <section id="profiles" class="profiles">
-      <div class="profiles-details">
-        <div class="section-heading text-center">
-          <h2>Proyectos</h2>
-        </div>
-        <div class="container">
-          <div class="profiles-content">
-            <div class="row">
-              <div class="col-sm-3">
-                <div class="single-profile">
-                  <div class="profile-txt">
-                    <a href="https://github.com/BrianArrua96/BrianArrua96"><i class="flaticon-github-logo"></i></a>
-                    <div class="profile-icon-name">Juego Java</div>
-                  </div>
-                  <div class="single-profile-overlay">
-                    <div class="profile-txt">
-                      <a href="https://github.com/BrianArrua96/BrianArrua96"><div class="profile-icon-name">Projecto Java</div></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="single-profile">
-                  <div class="profile-txt">
-                    <a href="https://github.com/BrianArrua96/BrianArrua96"><i class="flaticon-github-logo"></i></a>
-                    <div class="profile-icon-name">Slides</div>
-                  </div>
-                  <div class="single-profile-overlay">
-                    <div class="profile-txt">
-                      <a href="https://github.com/BrianArrua96/Project-Slides"><div class="profile-icon-name">Projecto Slides</div></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="single-profile">
-                  <div class="profile-txt">
-                    <a href="https://github.com/BrianArrua96/Project-Tickets"><i class="flaticon-github-logo"></i></a>
-                    <div class="profile-icon-name">Tickets</div>
-                  </div>
-                  <div class="single-profile-overlay">
-                    <div class="profile-txt">
-                      <a href="https://github.com/BrianArrua96/Project-Tickets"><div class="profile-icon-name">Projecto Tickets</div></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="single-profile profile-no-border">
-                  <div class="profile-txt">
-                    <a href="https://github.com/BrianArrua96/PortafolioBrianArrua"><i class="flaticon-github-logo"></i></a>
-                    <div class="profile-icon-name">Portafolio</div>
-                  </div>
-                  <div class="single-profile-overlay">
-                    <div class="profile-txt">
-                      <a href="https://github.com/BrianArrua96/PortafolioBrianArrua"><div class="profile-icon-name">Portafolio</div></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--/.profiles-->
-
-    <!--contact start -->
-    <section id="contact" class="contact">
-      <div class="section-heading text-center">
-        <h2>contactame</h2>
-      </div>
-      <div class="container">
-        <div class="contact-content">
-          <div class="row">
-            <div class="col-md-offset-1 col-md-5 col-sm-6">
-              <div class="single-contact-box">
-                <div class="contact-adress">
-                  <div class="contact-add-head">
-                    <h3>Brian Tobias Arrua Dominguez</h3>
-                    <p>Desarrollador Web</p>
-                  </div>
-                  <div class="contact-add-info">
-                    <div class="single-contact-add-info">
-                      <h3>Telefono</h3>
-                      <p>666 15 17 40</p>
-                    </div>
-                    <div class="single-contact-add-info">
-                      <h3>Email</h3>
-                      <p>domingueztobias96@gmail.com</p>
-                    </div>
-                  </div>
-                </div>
-                <!--/.contact-adress-->
-                <div class="hm-foot-icon">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <!--/li-->
-                    <li>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <!--/li-->
-                    <li>
-                      <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                    <!--/li-->
-                    <li>
-                      <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <!--/li-->
-                  </ul>
-                  <!--/ul-->
-                </div>
-                <!--/.hm-foot-icon-->
-              </div>
-              <!--/.single-contact-box-->
-            </div>
-            <!--/.col-->
-          </div>
-          <!--/.row-->
-        </div>
-        <!--/.contact-content-->
-      </div>
-      <!--/.container-->
-    </section>
-    <!--/.contact-->
-    <!--contact end -->
-
-    <!--footer-copyright start-->
-    <footer id="footer-copyright" class="footer-copyright">
-      <div class="container">
-        <div class="hm-footer-copyright text-center">
-          <p>&copy; copyright Brian Tobias Arrua Dominguez</p>
-          <!--/p-->
-        </div>
-        <!--/.text-center-->
-      </div>
-      <!--/.container-->
-
-      <div id="scroll-Top">
-        <div class="return-to-top">
-          <i class="fa fa-angle-up" id="scroll-top"></i>
-        </div>
-      </div>
-      <!--/.scroll-Top-->
+      <ul class="list">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#sobre-mi">Sobre me</a>
+        </li>
+        <li>
+          <a href="#projectes">Projectes</a>
+        </li>
+      </ul>
+      <p class="copyright">Brian Arrua | Tots els drets reservats </p>
     </footer>
-    <!--/.footer-copyright-->
-    <!--footer-copyright end-->
-
-    <!-- Include all js compiled plugins (below), or include individual files as needed -->
-
-    <script src="assets/js/jquery.js"></script>
-
-    <!--modernizr.min.js-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
-    <!--bootstrap.min.js-->
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- bootsnav js -->
-    <script src="assets/js/bootsnav.js"></script>
-
-    <!-- jquery.sticky.js -->
-    <script src="assets/js/jquery.sticky.js"></script>
-
-    <!-- for progress bar start-->
-
-    <!-- progressbar js -->
-    <script src="assets/js/progressbar.js"></script>
-
-    <!-- appear js -->
-    <script src="assets/js/jquery.appear.js"></script>
-
-    <!-- for progress bar end -->
-
-    <!--owl.carousel.js-->
-    <script src="assets/js/owl.carousel.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-    <!--Custom JS-->
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/Idiomas.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
